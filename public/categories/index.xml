@@ -6,9 +6,37 @@
     <description>Recent content in Categories on neldeles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 22:37:25 +0800</lastBuildDate>
     
 	<atom:link href="https://www.neldeles.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>article</title>
+      <link>https://www.neldeles.com/categories/article/</link>
+      <pubDate>Sat, 25 May 2019 22:37:25 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/categories/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://www.neldeles.com/categories/tutorial/</link>
+      <pubDate>Sat, 25 May 2019 22:25:34 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.neldeles.com/categories/blog/</link>
+      <pubDate>Sat, 25 May 2019 20:25:46 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/categories/blog/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

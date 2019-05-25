@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on neldeles.com</title>
+    <link>https://www.neldeles.com/posts/</link>
+    <description>Recent content in Posts on neldeles.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 22:37:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.neldeles.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sodaplayer</title>
+      <link>https://www.neldeles.com/posts/sodastream/</link>
+      <pubDate>Sat, 25 May 2019 22:37:25 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/sodastream/</guid>
+      <description>I&amp;rsquo;ve been looking for a way to airplay videos on my Mac to my Apple TV.
+The best app I&amp;rsquo;ve come across so far is Sodaplayer.
+It has worked flawlessly for me so far. It also has some standout features such as the ability to stream BitTorrent videos (no more waiting for the download to finish) and AceStream support.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Day to Day use</title>
+      <link>https://www.neldeles.com/posts/hugo-day-to-day/</link>
+      <pubDate>Sat, 25 May 2019 22:25:34 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/hugo-day-to-day/</guid>
+      <description>&lt;p&gt;Managing the blog is done via Terminal. These are the key commands I&amp;rsquo;ve encountered so far.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://www.neldeles.com/posts/my_first_post/</link>
+      <pubDate>Sat, 25 May 2019 20:25:46 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/my_first_post/</guid>
+      <description>We&amp;rsquo;re up and running. First post ever.</description>
+    </item>
+    
+  </channel>
+</rss>

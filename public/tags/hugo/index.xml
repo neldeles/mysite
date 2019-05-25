@@ -13,13 +13,20 @@
     
     <item>
       <title>Hugo Day to Day use</title>
+      <link>https://www.neldeles.com/posts/hugo-day-to-day/</link>
+      <pubDate>Sat, 25 May 2019 22:25:34 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/hugo-day-to-day/</guid>
+      <description>&lt;p&gt;Managing the blog is done via Terminal. These are the key commands I&amp;rsquo;ve encountered so far.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo Day to Day use</title>
       <link>https://www.neldeles.com/tutorials/hugo-day-to-day/</link>
       <pubDate>Sat, 25 May 2019 22:25:34 +0800</pubDate>
       
       <guid>https://www.neldeles.com/tutorials/hugo-day-to-day/</guid>
-      <description>Managing the blog is done via Terminal. These are the key commands I&amp;rsquo;ve encountered so far.
-Adding links to your site menu Open your config.toml file and add in:
-[menu] [[menu.main]] name = &amp;quot;About&amp;quot; url = &amp;quot;about&amp;quot; pre = &amp;quot;&amp;lt;i class=&#39;fa fa-heart&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;quot; weight = 1 [[menu.main]] name = &amp;quot;Articles&amp;quot; url = &amp;quot;articles/&amp;quot; weight = 10 [[menu.main]] name = &amp;quot;Blog&amp;quot; url = &amp;quot;blog/&amp;quot; weight = 20 [[menu.main]] name = &amp;quot;Home&amp;quot; url = &amp;quot;/&amp;quot; weight = 30 [[menu.</description>
+      <description>&lt;p&gt;Managing the blog is done via Terminal. These are the key commands I&amp;rsquo;ve encountered so far.&lt;/p&gt;</description>
     </item>
     
   </channel>

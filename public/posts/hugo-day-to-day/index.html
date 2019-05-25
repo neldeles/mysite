@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.neldeles.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Hugo Day to Day use"/>
+  <meta name="twitter:description" content="Managing the blog is done via Terminal. These are the key commands I&rsquo;ve encountered so far."/>
+  
+    <meta name="twitter:site" content="@neldeles"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@Noel Deles"/>
+  
+
+
+
+		
+		<meta name="author" content="Noel Deles">
+		<meta name="description" content="My personal time capsule">
+		<meta name="generator" content="Hugo 0.55.6" />
+		<title>Hugo Day to Day use &middot; neldeles.com</title>
+		<link rel="shortcut icon" href="https://www.neldeles.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.neldeles.com/css/style.css">
+		<link rel="stylesheet" href="https://www.neldeles.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.neldeles.com/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.neldeles.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.neldeles.com/posts'>Posts</a>
+	<a href='https://www.neldeles.com/tags'>Tags</a>
+	<a href='https://www.neldeles.com/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Hugo Day to Day use
+                    </h1>
+                    <h2 class="headline">
+                    May 25, 2019 22:25
+                    · 430 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.neldeles.com/tags/hugo">hugo</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#adding-links-to-your-site-menu">Adding links to your site menu</a></li>
+<li><a href="#creating-a-new-post">Creating a new post</a>
+<ul>
+<li><a href="#adding-images-to-your-post">Adding images to your post</a></li>
+<li><a href="#adding-article-description-summary">Adding article description/summary</a></li>
+<li><a href="#building-the-website-and-therefore-post">Building the website (and therefore post)</a></li>
+<li><a href="#commit-and-push">Commit and push</a></li>
+</ul></li>
+<li><a href="#changing-your-blog-s-theme">Changing your blog&rsquo;s theme</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    <p>Managing the blog is done via Terminal. These are the key commands I&rsquo;ve encountered so far.</p>
+
+<h2 id="adding-links-to-your-site-menu">Adding links to your site menu</h2>
+
+<p>Open your <code>config.toml</code> file and add in:</p>
+
+<pre><code>[menu]
+  [[menu.main]]
+    name = &quot;About&quot;
+    url  = &quot;about&quot;
+    pre = &quot;&lt;i class='fa fa-heart'&gt;&lt;/i&gt;&quot;
+    weight = 1
+
+  [[menu.main]]
+    name = &quot;Articles&quot;
+    url  = &quot;articles/&quot;
+    weight = 10
+
+  [[menu.main]]
+    name = &quot;Blog&quot;
+    url  = &quot;blog/&quot;
+    weight = 20
+  
+  [[menu.main]]
+    name = &quot;Home&quot;
+    url  = &quot;/&quot;
+    weight = 30
+
+  [[menu.main]]
+    name = &quot;Tutorials&quot;
+    url  = &quot;tutorials/&quot;
+    weight = 100
+</code></pre>
+
+<h2 id="creating-a-new-post">Creating a new post</h2>
+
+<p>I&rsquo;ve set up my site such that there are 3 different kinds of posts:
+- <code>article</code>: for things like reviews/opinions etc
+- <code>blog</code>: for posts that are personal i.e. a movie I just watched or a new job I just started
+- <code>tutorial</code>: for any guides/how-to&rsquo;s (like this post)</p>
+
+<p>Whenever I want to create a new post, I change my current working directory to the local project, then create a new post via:</p>
+
+<pre><code class="language-bash">cd my_blog
+
+hugo new articles/my_article.md
+hugo new blog/my_blog.md
+hugo new tutorials/tuts.md
+</code></pre>
+
+<p>Note that <code>draft</code> is set to <code>false</code> by default for the posts. Hugo will not publish these. More info <a href="https://gohugo.io/getting-started/usage/">here</a>.</p>
+
+<h3 id="adding-images-to-your-post">Adding images to your post</h3>
+
+<p>Put them in the <code>static</code> folder. Recommended set up is within <code>static/img</code> and subdirectories with names identical to post slugs i.e.:</p>
+
+<pre><code>/content/future-of-bali.md
+/static/img/future-of-bali/green-school-power-plant.jpg
+</code></pre>
+
+<h3 id="adding-article-description-summary">Adding article description/summary</h3>
+
+<p>Specific to my Cactus Plus theme, if I wish to add a post summary:</p>
+
+<blockquote>
+<p>To use the content summary, you may add the <code>&lt;!--more--&gt;</code> summary divider where you want to split the article alternatively. For org content, use <code>#</code> more where you want to split the article. Content that comes before the summary divider will be used as that content’s summary.By default, Hugo automatically takes the first 70 words of your content as its summary.</p>
+</blockquote>
+
+<h3 id="building-the-website-and-therefore-post">Building the website (and therefore post)</h3>
+
+<p>Once your article is ready, you will need to <code>build</code>  the files. This creates the <code>public</code> subfolder, which is basically the complete website and is what you deploy.</p>
+
+<p>You build via running <code>hugo</code> in terminal i.e.:</p>
+
+<pre><code>hugo
+</code></pre>
+
+<h3 id="commit-and-push">Commit and push</h3>
+
+<p>Once it&rsquo;s been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. <img src="img/hugo-day-to-day/commit.png" alt="commit" /></p>
+
+<h2 id="changing-your-blog-s-theme">Changing your blog&rsquo;s theme</h2>
+
+<p>Add it to your <code>themes</code> folder via:</p>
+
+<pre><code>cd themes
+git submodule add https://github.com/nodejh/hugo-theme-cactus-plus.git
+</code></pre>
+
+<p>Then open your <code>config.toml</code> file and make sure the <code>theme</code> name is exactly the same as the folder name in the <code>themes</code> directory.</p>
+
+<p>*For my switch to Cactus Plus, I had to change the <code>default.md</code> archetype too. Make sure to revert if I switch themes again.</p>
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.neldeles.com%2fposts%2fhugo-day-to-day%2f - Hugo%20Day%20to%20Day%20use by @neldeles"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'neldeles'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com/neldeles">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/neldeles">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/neldeles">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> Noel Deles
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.neldeles.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.neldeles.com/js/main.js"></script>
+<script src="https://www.neldeles.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+
+
+
+
+    </body>
+</html>
