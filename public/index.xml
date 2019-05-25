@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>neldeles.com</title>
-    <link>http://www.neldeles.com/</link>
+    <link>https://www.neldeles.com/</link>
     <description>Recent content on neldeles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 May 2019 20:41:25 +0800</lastBuildDate>
     
-	<atom:link href="http://www.neldeles.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.neldeles.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://www.neldeles.com/about/</link>
+      <link>https://www.neldeles.com/about/</link>
       <pubDate>Sat, 25 May 2019 20:41:25 +0800</pubDate>
       
-      <guid>http://www.neldeles.com/about/</guid>
+      <guid>https://www.neldeles.com/about/</guid>
       <description>I&amp;rsquo;m Noel Deles and welcome to my personal website. This site serves as a personal time capsule — a place for me to log anything and everything I&amp;rsquo;m learning day to day. Scopes of interest encompass tech, buzzwords like data science, and hacky ways to get things done more efficiently.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://www.neldeles.com/blog/my_first_post/</link>
+      <link>https://www.neldeles.com/blog/my_first_post/</link>
       <pubDate>Sat, 25 May 2019 20:25:46 +0800</pubDate>
       
-      <guid>http://www.neldeles.com/blog/my_first_post/</guid>
+      <guid>https://www.neldeles.com/blog/my_first_post/</guid>
       <description>We&amp;rsquo;re up and running. First post ever.</description>
     </item>
     

@@ -1,4 +1,4 @@
-baseURL = "http://www.neldeles.com/"
+baseURL = "https://www.neldeles.com/"
 languageCode = "en-us"
 title = "neldeles.com"
 theme = "hugo-paper"
