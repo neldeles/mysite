@@ -19,7 +19,7 @@ Main tutorials I followed were:
 
 
 ## Netlify deployment issue with Cactus Plus theme
-Netlify kept throwing out a `Error: Unable to find theme Directory: /themes/XXX` error. It has something to do with submodules and the .git . sub-directory. More info can be read [here](https://discourse.gohugo.io/t/netlify-site-does-not-deploy/12001/17).
+Netlify kept throwing out a `Error: Unable to find theme Directory: /themes/XXX` error. It has something to do with submodules and the `.git` sub-directory. More info can be read [here](https://discourse.gohugo.io/t/netlify-site-does-not-deploy/12001/17).
 The tldr; solution is to just manually install the theme via downloading the zip file, renaming extracted folder, and moving folder to `themes/` directory. 
 
-The only con is that the theme is no longer updated automatically. In this case it isn't as big a loss since Cactus Plus was last updated in 2018.
+The only con is that the theme no longer updates automatically. In this case it isn't as big a loss since Cactus Plus was last updated in 2018.
