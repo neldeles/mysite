@@ -3,6 +3,7 @@ title: "Hugo Day to Day use"
 date: 2019-05-25T22:25:34+08:00
 draft: false
 tags: ["hugo"]
+categories: ["tutorial"]
 ---
 Managing the blog is done via Terminal. These are the key commands I've encountered so far.
 
@@ -38,21 +39,15 @@ Open your `config.toml` file and add in:
     url  = "tutorials/"
     weight = 100
 ```
+Note that this is dependent on your theme. In Cactus Plus this doesn't work (because the template isn't set up as such). However for my previous theme that I used, Paper, it did work.
 
 ## Creating a new post
-I've set up my site such that there are 3 different kinds of posts:
-- `article`: for things like reviews/opinions etc
-- `blog`: for posts that are personal i.e. a movie I just watched or a new job I just started
-- `tutorial`: for any guides/how-to's (like this post)
-
 Whenever I want to create a new post, I change my current working directory to the local project, then create a new post via:
 
 ```bash
 cd my_blog
 
-hugo new articles/my_article.md
-hugo new blog/my_blog.md
-hugo new tutorials/tuts.md
+hugo new posts/new-post.md
 ```
 Note that `draft` is set to `false` by default for the posts. Hugo will not publish these. More info [here](https://gohugo.io/getting-started/usage/).
 
@@ -78,7 +73,7 @@ hugo
 ```
 
 ### Commit and push
-Once it's been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. ![commit](img/hugo-day-to-day/commit.png)
+Once it's been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. ![commit](/img/hugo-day-to-day/commit.png)
 
 ## Changing your blog's theme
 Add it to your `themes` folder via:
