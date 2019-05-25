@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apps on neldeles.com</title>
+    <link>https://www.neldeles.com/tags/apps/</link>
+    <description>Recent content in apps on neldeles.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 22:37:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.neldeles.com/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sodaplayer</title>
+      <link>https://www.neldeles.com/articles/sodastream/</link>
+      <pubDate>Sat, 25 May 2019 22:37:25 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/articles/sodastream/</guid>
+      <description>I&amp;rsquo;ve been looking for a way to airplay videos on my Mac to my Apple TV.
+The best app I&amp;rsquo;ve come across so far is Sodaplayer.
+It has worked flawlessly for me so far. It also has some standout features such as the ability to stream BitTorrent videos (no more waiting for the download to finish) and AceStream support.</description>
+    </item>
+    
+  </channel>
+</rss>

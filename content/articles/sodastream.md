@@ -1,7 +1,7 @@
 ---
 title: "Sodaplayer"
 date: 2019-05-25T22:37:25+08:00
-draft: true
+draft: false
 tags: ["apps", "mac"]
 ---
 I've been looking for a way to airplay videos on my Mac to my Apple TV.

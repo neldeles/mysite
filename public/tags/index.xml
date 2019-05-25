@@ -6,10 +6,28 @@
     <description>Recent content in Tags on neldeles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2019 22:25:34 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2019 22:37:25 +0800</lastBuildDate>
     
 	<atom:link href="https://www.neldeles.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>apps</title>
+      <link>https://www.neldeles.com/tags/apps/</link>
+      <pubDate>Sat, 25 May 2019 22:37:25 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/tags/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://www.neldeles.com/tags/mac/</link>
+      <pubDate>Sat, 25 May 2019 22:37:25 +0800</pubDate>
+      
+      <guid>https://www.neldeles.com/tags/mac/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>

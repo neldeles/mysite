@@ -71,7 +71,7 @@ hugo
 ```
 
 ### Commit and push
-Once it's been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. ![commit](../../static/img/hugo-day-to-day/commit.png)
+Once it's been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. ![commit](img/hugo-day-to-day/commit.png)
 
 
 
