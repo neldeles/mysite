@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Hugo Day to Day use - neldeles.com</title>
+    
+    <meta name="description" content="Managing the blog is done via Terminal. These are the key commands I&rsquo;ve encountered so far.
+Adding links to your site menu Open your config.toml file and add in:
+[menu] [[menu.main]] name = &quot;About&quot; url = &quot;about&quot; pre = &quot;&lt;i class=&#39;fa fa-heart&#39;&gt;&lt;/i&gt;&quot; weight = 1 [[menu.main]] name = &quot;Articles&quot; url = &quot;articles/&quot; weight = 10 [[menu.main]] name = &quot;Blog&quot; url = &quot;blog/&quot; weight = 20 [[menu.main]] name = &quot;Home&quot; url = &quot;/&quot; weight = 30 [[menu.">
+    <meta name="author" content="">
+    
+    <link href="https://www.neldeles.com/css/github-gist.min.css" rel="stylesheet">
+    <link href="https://www.neldeles.com/css/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://www.neldeles.com/img/apple-touch-icon.png">
+    <link rel="icon" href="https://www.neldeles.com/img/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.55.6" />
+    
+    <link rel="alternate" type="application/atom+xml" href="https://www.neldeles.com/index.xml" title="neldeles.com">
+    
+    
+  </head>
+  <body class="single">
+    <header class="header">
+      <div class="wrap">
+        
+        <p class="logo"><a href="https://www.neldeles.com/">neldeles.com </a></p>
+        
+        <button class="menu-toggle" type="button"></button>
+      </div>
+    </header>
+    <nav class="nav">
+    <ul class="menu">
+      
+      
+      <li class="">
+        <a href="about">About</a>
+      </li>
+      
+      <li class="">
+        <a href="articles/">Articles</a>
+      </li>
+      
+      <li class="">
+        <a href="blog/">Blog</a>
+      </li>
+      
+      <li class="">
+        <a href="/">Home</a>
+      </li>
+      
+      <li class="">
+        <a href="tutorials/">Tutorials</a>
+      </li>
+      
+    </ul>
+    </nav>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Hugo Day to Day use</h1>
+    <div class="post-meta">2019.5.25</div>
+  </header>
+  <div class="post-content">
+
+<p>Managing the blog is done via Terminal. These are the key commands I&rsquo;ve encountered so far.</p>
+
+<h2 id="adding-links-to-your-site-menu">Adding links to your site menu</h2>
+
+<p>Open your <code>config.toml</code> file and add in:</p>
+
+<pre><code>[menu]
+  [[menu.main]]
+    name = &quot;About&quot;
+    url  = &quot;about&quot;
+    pre = &quot;&lt;i class='fa fa-heart'&gt;&lt;/i&gt;&quot;
+    weight = 1
+
+  [[menu.main]]
+    name = &quot;Articles&quot;
+    url  = &quot;articles/&quot;
+    weight = 10
+
+  [[menu.main]]
+    name = &quot;Blog&quot;
+    url  = &quot;blog/&quot;
+    weight = 20
+  
+  [[menu.main]]
+    name = &quot;Home&quot;
+    url  = &quot;/&quot;
+    weight = 30
+
+  [[menu.main]]
+    name = &quot;Tutorials&quot;
+    url  = &quot;tutorials/&quot;
+    weight = 100
+</code></pre>
+
+<h2 id="creating-a-new-post">Creating a new post</h2>
+
+<p>I&rsquo;ve set up my site such that there are 3 different kinds of posts:
+- <code>article</code>: for things like reviews/opinions etc
+- <code>blog</code>: for posts that are personal i.e. a movie I just watched or a new job I just started
+- <code>tutorial</code>: for any guides/how-to&rsquo;s (like this post)</p>
+
+<p>Whenever I want to create a new post, I change my current working directory to the local project, then create a new post via:</p>
+
+<pre><code class="language-bash">cd my_blog
+
+hugo new articles/my_article.md
+hugo new blog/my_blog.md
+hugo new tutorials/tuts.md
+</code></pre>
+
+<p>Note that <code>draft</code> is set to <code>false</code> by default for the posts. Hugo will not publish these. More info <a href="https://gohugo.io/getting-started/usage/">here</a>.</p>
+
+<h3 id="adding-images-to-your-post">Adding images to your post</h3>
+
+<p>Put them in the <code>static</code> folder. Recommended set up is within <code>static/img</code> and subdirectories with names identical to post slugs i.e.:</p>
+
+<pre><code>/content/future-of-bali.md
+/static/img/future-of-bali/green-school-power-plant.jpg
+</code></pre>
+
+<h3 id="building-the-website-and-therefore-post">Building the website (and therefore post)</h3>
+
+<p>Once your article is ready, you will need to <code>build</code>  the files. This creates the <code>public</code> subfolder, which is basically the complete website and is what you deploy.</p>
+
+<p>You build via running <code>hugo</code> in terminal i.e.:</p>
+
+<pre><code>hugo
+</code></pre>
+
+<h3 id="commit-and-push">Commit and push</h3>
+
+<p>Once it&rsquo;s been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. <img src="../../static/img/hugo-day-to-day/commit.png" alt="commit" /></p>
+</div>
+  <footer class="post-footer">
+    
+    <ul class="post-tags">
+      
+      <li><a href="https://www.neldeles.com/tags/hugo/">hugo</a></li>
+      
+    </ul>
+    
+  </footer>
+  
+  
+  
+  
+</article>
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 neldeles.com</span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://www.neldeles.com/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+<script src="https://www.neldeles.com/js/highlight.min.js" data-no-instant></script>
+<script data-no-instant>
+  hljs.initHighlightingOnLoad();
+  setMenuListener();
+
+  InstantClick.on('change', function() {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+    setMenuListener();
+  });
+
+  function setMenuListener() {
+    var menuToggle = document.querySelector('.menu-toggle');
+    var body = document.querySelector('body');
+    menuToggle.addEventListener('click', function() {
+      body.classList.toggle('no-scroll');
+    }, false);
+  }
+</script>
+</body>
+</html>
+

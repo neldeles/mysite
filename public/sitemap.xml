@@ -3,14 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.neldeles.com/about/</loc>
-    <lastmod>2019-05-25T20:41:25+08:00</lastmod>
+    <loc>https://www.neldeles.com/tutorials/hugo-day-to-day/</loc>
+    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/tags/</loc>
+    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/tutorials/</loc>
+    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/tags/hugo/</loc>
+    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.neldeles.com/</loc>
-    <lastmod>2019-05-25T20:41:25+08:00</lastmod>
+    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/about/</loc>
+    <lastmod>2019-05-25T20:41:25+08:00</lastmod>
   </url>
   
   <url>
@@ -26,11 +49,6 @@
   
   <url>
     <loc>https://www.neldeles.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.neldeles.com/tags/</loc>
     <priority>0</priority>
   </url>
   

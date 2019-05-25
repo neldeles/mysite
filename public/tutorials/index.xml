@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>neldeles.com</title>
-    <link>https://www.neldeles.com/</link>
-    <description>Recent content on neldeles.com</description>
+    <title>Tutorials on neldeles.com</title>
+    <link>https://www.neldeles.com/tutorials/</link>
+    <description>Recent content in Tutorials on neldeles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 May 2019 22:25:34 +0800</lastBuildDate>
     
-	<atom:link href="https://www.neldeles.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.neldeles.com/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,24 +20,6 @@
       <description>Managing the blog is done via Terminal. These are the key commands I&amp;rsquo;ve encountered so far.
 Adding links to your site menu Open your config.toml file and add in:
 [menu] [[menu.main]] name = &amp;quot;About&amp;quot; url = &amp;quot;about&amp;quot; pre = &amp;quot;&amp;lt;i class=&#39;fa fa-heart&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;quot; weight = 1 [[menu.main]] name = &amp;quot;Articles&amp;quot; url = &amp;quot;articles/&amp;quot; weight = 10 [[menu.main]] name = &amp;quot;Blog&amp;quot; url = &amp;quot;blog/&amp;quot; weight = 20 [[menu.main]] name = &amp;quot;Home&amp;quot; url = &amp;quot;/&amp;quot; weight = 30 [[menu.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://www.neldeles.com/about/</link>
-      <pubDate>Sat, 25 May 2019 20:41:25 +0800</pubDate>
-      
-      <guid>https://www.neldeles.com/about/</guid>
-      <description>I&amp;rsquo;m Noel Deles and welcome to my personal website. This site serves as a personal time capsule — a place for me to log anything and everything I&amp;rsquo;m learning day to day. Scopes of interest encompass tech, buzzwords like data science, and hacky ways to get things done more efficiently.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://www.neldeles.com/blog/my_first_post/</link>
-      <pubDate>Sat, 25 May 2019 20:25:46 +0800</pubDate>
-      
-      <guid>https://www.neldeles.com/blog/my_first_post/</guid>
-      <description>We&amp;rsquo;re up and running. First post ever.</description>
     </item>
     
   </channel>
