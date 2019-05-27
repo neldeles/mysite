@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on neldeles.com</title>
+    <link>https://www.neldeles.com/tags/sql/</link>
+    <description>Recent content in sql on neldeles.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.neldeles.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>row_number() in MySQL</title>
+      <link>https://www.neldeles.com/posts/row-number-in-mysql/</link>
+      <pubDate>Mon, 27 May 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/row-number-in-mysql/</guid>
+      <description>&lt;p&gt;How to implement &lt;code&gt;row_number()&lt;/code&gt; in MySQL.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

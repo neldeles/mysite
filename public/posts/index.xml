@@ -6,10 +6,28 @@
     <description>Recent content in Posts on neldeles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2019 22:37:25 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 08:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.neldeles.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>row_number() in MySQL</title>
+      <link>https://www.neldeles.com/posts/row-number-in-mysql/</link>
+      <pubDate>Mon, 27 May 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/row-number-in-mysql/</guid>
+      <description>&lt;p&gt;How to implement &lt;code&gt;row_number()&lt;/code&gt; in MySQL.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting up a Hugo blog</title>
+      <link>https://www.neldeles.com/posts/setting-up-a-hugo-blog/</link>
+      <pubDate>Sat, 25 May 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/setting-up-a-hugo-blog/</guid>
+      <description>&lt;p&gt;Resources on how I setup my own blog with Hugo, Netlify, and Forestry. Log of problems I encountered and solutions I came across.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Sodaplayer</title>

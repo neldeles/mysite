@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.neldeles.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Setting up a Hugo blog"/>
+  <meta name="twitter:description" content="Resources on how I setup my own blog with Hugo, Netlify, and Forestry. Log of problems I encountered and solutions I came across."/>
+  
+    <meta name="twitter:site" content="@neldeles"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@Noel Deles"/>
+  
+
+
+
+		
+		<meta name="author" content="Noel Deles">
+		<meta name="description" content="My personal time capsule">
+		<meta name="generator" content="Hugo 0.55.6" />
+		<title>Setting up a Hugo blog &middot; neldeles.com</title>
+		<link rel="shortcut icon" href="https://www.neldeles.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.neldeles.com/css/style.css">
+		<link rel="stylesheet" href="https://www.neldeles.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.neldeles.com/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.neldeles.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.neldeles.com/posts'>Posts</a>
+	<a href='https://www.neldeles.com/tags'>Tags</a>
+	<a href='https://www.neldeles.com/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Setting up a Hugo blog
+                    </h1>
+                    <h2 class="headline">
+                    May 25, 2019 16:00
+                    · 189 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.neldeles.com/tags/hugo">hugo</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#netlify-deployment-issue-with-cactus-plus-theme">Netlify deployment issue with Cactus Plus theme</a></li>
+<li><a href="#appendix">Appendix</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    <p>Resources on how I setup my own blog with Hugo, Netlify, and Forestry. Log of problems I encountered and solutions I came across.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>The setup path I took was:
+1. Install Hugo
+2. Install my theme
+3. Create the <strong>About Me</strong> page
+4. Create a new post
+5. Create my Git Repo
+6. Setup git in my site&rsquo;s project folder
+7. Deploy on Netlify
+8. Deploy on Forestry</p>
+
+<h2 id="netlify-deployment-issue-with-cactus-plus-theme">Netlify deployment issue with Cactus Plus theme</h2>
+
+<p>Netlify kept throwing out a <code>Error: Unable to find theme Directory: /themes/XXX</code> error. It has something to do with submodules and the <code>.git</code> sub-directory. More info can be read <a href="https://discourse.gohugo.io/t/netlify-site-does-not-deploy/12001/17">here</a>.
+The tldr; solution is to just manually install the theme via downloading the zip file, renaming extracted folder, and moving folder to <code>themes/</code> directory.</p>
+
+<p>The only con is that the theme no longer updates automatically. In this case it isn&rsquo;t as big a loss since Cactus Plus was last updated in 2018.</p>
+
+<h2 id="appendix">Appendix</h2>
+
+<p>Main tutorials I followed were:</p>
+
+<ul>
+<li><a href="https://opensource.com/article/18/3/start-blog-30-minutes-hugo">Start a blog in 30 minutes with Hugo</a></li>
+<li><a href="https://medium.com/backticks-tildes/hugo101-getting-started-with-hugo-and-deploying-to-netlify-9a813fe23b94">Hugo101</a></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-netlify/">Hugo docs on Netlify</a></li>
+<li><a href="https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#setting-up-your-first-theme">Netlify guide on Hugo</a></li>
+<li><a href="https://dev.to/effingkay/build-your-own-blog-with-hugo-and-netlify-oi7">Build your own blog with Hugo and Netlify</a></li>
+</ul>
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.neldeles.com%2fposts%2fsetting-up-a-hugo-blog%2f - Setting%20up%20a%20Hugo%20blog by @neldeles"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'neldeles'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com/neldeles">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/neldeles">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/neldeles">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> Noel Deles
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.neldeles.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.neldeles.com/js/main.js"></script>
+<script src="https://www.neldeles.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+
+
+
+
+    </body>
+</html>

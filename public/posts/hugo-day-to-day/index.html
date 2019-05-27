@@ -68,8 +68,8 @@
                     </h1>
                     <h2 class="headline">
                     May 25, 2019 22:25
-                    · 430 words
-                    · 3 minute read
+                    · 409 words
+                    · 2 minute read
                       <span class="tags">
                       
                       
@@ -138,20 +138,15 @@
     weight = 100
 </code></pre>
 
-<h2 id="creating-a-new-post">Creating a new post</h2>
+<p>Note that this is dependent on your theme. In Cactus Plus this doesn&rsquo;t work (because the template isn&rsquo;t set up as such). However for my previous theme that I used, Paper, it did work.</p>
 
-<p>I&rsquo;ve set up my site such that there are 3 different kinds of posts:
-- <code>article</code>: for things like reviews/opinions etc
-- <code>blog</code>: for posts that are personal i.e. a movie I just watched or a new job I just started
-- <code>tutorial</code>: for any guides/how-to&rsquo;s (like this post)</p>
+<h2 id="creating-a-new-post">Creating a new post</h2>
 
 <p>Whenever I want to create a new post, I change my current working directory to the local project, then create a new post via:</p>
 
 <pre><code class="language-bash">cd my_blog
 
-hugo new articles/my_article.md
-hugo new blog/my_blog.md
-hugo new tutorials/tuts.md
+hugo new posts/new-post.md
 </code></pre>
 
 <p>Note that <code>draft</code> is set to <code>false</code> by default for the posts. Hugo will not publish these. More info <a href="https://gohugo.io/getting-started/usage/">here</a>.</p>
@@ -183,7 +178,7 @@ hugo new tutorials/tuts.md
 
 <h3 id="commit-and-push">Commit and push</h3>
 
-<p>Once it&rsquo;s been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. <img src="img/hugo-day-to-day/commit.png" alt="commit" /></p>
+<p>Once it&rsquo;s been built, next step is to use Git to commit to the repository. For this I prefer using Github Desktop. <img src="/img/hugo-day-to-day/commit.png" alt="commit" /></p>
 
 <h2 id="changing-your-blog-s-theme">Changing your blog&rsquo;s theme</h2>
 

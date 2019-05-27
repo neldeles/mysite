@@ -6,17 +6,35 @@
     <description>Recent content in tutorial on neldeles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2019 22:25:34 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 08:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.neldeles.com/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>row_number() in MySQL</title>
+      <link>https://www.neldeles.com/posts/row-number-in-mysql/</link>
+      <pubDate>Mon, 27 May 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/row-number-in-mysql/</guid>
+      <description>&lt;p&gt;How to implement &lt;code&gt;row_number()&lt;/code&gt; in MySQL.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting up a Hugo blog</title>
+      <link>https://www.neldeles.com/posts/setting-up-a-hugo-blog/</link>
+      <pubDate>Sat, 25 May 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.neldeles.com/posts/setting-up-a-hugo-blog/</guid>
+      <description>&lt;p&gt;Resources on how I setup my own blog with Hugo, Netlify, and Forestry. Log of problems I encountered and solutions I came across.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Hugo Day to Day use</title>
-      <link>https://www.neldeles.com/tutorials/hugo-day-to-day/</link>
+      <link>https://www.neldeles.com/posts/hugo-day-to-day/</link>
       <pubDate>Sat, 25 May 2019 22:25:34 +0800</pubDate>
       
-      <guid>https://www.neldeles.com/tutorials/hugo-day-to-day/</guid>
+      <guid>https://www.neldeles.com/posts/hugo-day-to-day/</guid>
       <description>&lt;p&gt;Managing the blog is done via Terminal. These are the key commands I&amp;rsquo;ve encountered so far.&lt;/p&gt;</description>
     </item>
     

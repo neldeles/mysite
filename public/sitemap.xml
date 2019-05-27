@@ -4,25 +4,59 @@
   
   <url>
     <loc>https://www.neldeles.com/categories/</loc>
-    <lastmod>2019-05-25T22:37:25+08:00</lastmod>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.neldeles.com/posts/</loc>
-    <lastmod>2019-05-25T22:37:25+08:00</lastmod>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/tags/</loc>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/</loc>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/posts/row-number-in-mysql/</loc>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/tags/sql/</loc>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/categories/tutorial/</loc>
+    <lastmod>2019-05-27T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/posts/setting-up-a-hugo-blog/</loc>
+    <lastmod>2019-05-25T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.neldeles.com/tags/hugo/</loc>
+    <lastmod>2019-05-25T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.neldeles.com/posts/sodastream/</loc>
     <lastmod>2019-05-25T22:37:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.neldeles.com/tags/</loc>
-    <lastmod>2019-05-25T22:37:25+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -44,37 +78,8 @@
   </url>
   
   <url>
-    <loc>https://www.neldeles.com/</loc>
-    <lastmod>2019-05-25T22:37:25+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.neldeles.com/posts/hugo-day-to-day/</loc>
     <lastmod>2019-05-25T22:25:34+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.neldeles.com/tutorials/hugo-day-to-day/</loc>
-    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.neldeles.com/tutorials/</loc>
-    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.neldeles.com/tags/hugo/</loc>
-    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.neldeles.com/categories/tutorial/</loc>
-    <lastmod>2019-05-25T22:25:34+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
