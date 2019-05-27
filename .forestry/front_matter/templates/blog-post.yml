@@ -15,4 +15,5 @@ fields:
   name: categories
   label: categories
 pages:
+- content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
