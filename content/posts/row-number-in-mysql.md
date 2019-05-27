@@ -1,9 +1,8 @@
 +++
 categories = ["tutorial"]
 date = "2019-05-27T08:00:00+00:00"
-draft = true
 tags = ["sql"]
-title = "`row_number()` in MySQL"
+title = "row_number() in MySQL"
 
 +++
 How to implement `row_number()` in MySQL.
