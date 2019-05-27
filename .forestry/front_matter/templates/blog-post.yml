@@ -14,6 +14,16 @@ fields:
 - type: list
   name: categories
   label: categories
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+  description: Article summary
 pages:
 - content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
