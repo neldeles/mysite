@@ -9,6 +9,13 @@ I faced a problem similar to [this](https://www.reddit.com/r/learnpython/comment
 
 While his solution isn't the most elegant or efficient, it does the job.
 
-In my case, since the column with possible missing values wasn't a column I needed, I just used the [`drop`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html) function.
+In my case, since the column with possible missing values wasn't a column I needed, I just used the `[drop](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html)` function.
 
-Main takeaway is before trying to find a solution, stop and think things through first. *Do you really need the data that is causing the issue?* If not, `drop` it. :) 
+Main takeaway is before trying to find a solution, stop and think things through first. _Do you really need the data that is causing the issue?_ If not, `drop` it. :)
+
+## Appendix
+
+For flattening JSON's, these 2 links are quite insightful:
+
+* [https://www.kaggle.com/julian3833/1-quick-start-read-csv-and-flatten-json-fields](https://www.kaggle.com/julian3833/1-quick-start-read-csv-and-flatten-json-fields "https://www.kaggle.com/julian3833/1-quick-start-read-csv-and-flatten-json-fields")
+* [https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas](https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas "https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas")
