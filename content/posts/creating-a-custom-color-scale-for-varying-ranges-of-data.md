@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = ["tutorial"]
 date = "2019-07-09T16:00:00+00:00"
 tags = []
 title = "Creating a Custom Color Scale for Varying Ranges of Data"
