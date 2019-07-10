@@ -15,8 +15,9 @@ fields:
   name: categories
   label: categories
 pages:
+- content/posts/creating-a-custom-color-scale-for-varying-ranges-of-data.md
+- content/posts/re-arranging-columns-in-your-dataframe.md
 - content/posts/enable-tab-autocomplete-in-osx-terminal.md
+- content/posts/flattening-json-in-dataframe-with-missing-values.md
 - content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
-- content/posts/flattening-json-in-dataframe-with-missing-values.md
-- content/posts/re-arranging-columns-in-your-dataframe.md
