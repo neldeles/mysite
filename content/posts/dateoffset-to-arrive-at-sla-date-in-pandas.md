@@ -23,5 +23,5 @@ Offset a date, excluding holidays and non-working days
     df['start_clock'] = df['start_clock'].values.astype('datetime64[D]')
     
     sla_offset = lambda n: pd.tseries.offsets.CustomBusinessDay(n, weekmask='Mon Tue Wed Thu Fri Sat', holidays=holidays)
-    
+     
     df['sla_date'] = df['start_clock'] + df['sla_days'].apply(sla_offset)
