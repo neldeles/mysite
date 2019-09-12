@@ -2,7 +2,7 @@
 categories = ["tutorial"]
 date = "2019-09-11T16:00:00+00:00"
 tags = ["pandas"]
-title = "Dateoffset to arrive at SLA date in Pandas"
+title = "Dateoffset to calculate end SLA date in Pandas"
 
 +++
 Offset a date, excluding holidays and non-working days
