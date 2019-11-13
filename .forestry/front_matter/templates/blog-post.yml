@@ -15,6 +15,7 @@ fields:
   name: categories
   label: categories
 pages:
+- content/posts/import-your-own-custom-modules-in-google-colab.md
 - content/posts/dateoffset-to-arrive-at-sla-date-in-pandas.md
 - content/posts/creating-a-custom-color-scale-for-varying-ranges-of-data.md
 - content/posts/re-arranging-columns-in-your-dataframe.md
