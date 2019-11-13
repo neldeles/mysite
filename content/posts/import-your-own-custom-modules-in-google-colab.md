@@ -5,11 +5,11 @@ tags = ["google colab", "tools", "data science"]
 title = "Import your own custom modules in Google Colab"
 
 +++
-Google Colab is great. But you do have to wrap your head around how it handles "local files".
+How to import your own modules in Google Colab using your Drive
 
 <!--more-->
 
-    
+Google Colab is great. But you do have to wrap your head around how it handles "local files".    
 
     # first mount your gdrive
     from google.colab import drive
