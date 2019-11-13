@@ -5,18 +5,17 @@ tags = ["google colab", "tools", "data science"]
 title = "Import your own custom modules in Google Colab"
 
 +++
-How to import your own modules in Google Colab using your Drive
+Google Colab is great. But you do have to wrap your head around how it handles "local files".
 
 <!--more-->
 
-Google Colab is great. But you do have to wrap your head around how it handles "local files".    
-
-    # first mount your gdrive
+    """
+    first mount your gdrive
+    """
     from google.colab import drive
     drive.mount('/gdrive')
     
     # next, add the location of the file to the path:
-    
     import sys
     sys.path.append('/content/drive/My Drive')
     
