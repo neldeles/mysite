@@ -9,9 +9,6 @@ Google Colab is great. But you do have to wrap your head around how it handles "
 
 <!--more-->
 
-    """
-    first mount your gdrive
-    """
     from google.colab import drive
     drive.mount('/gdrive')
     
