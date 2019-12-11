@@ -15,11 +15,12 @@ fields:
   name: categories
   label: categories
 pages:
-- content/posts/import-your-own-custom-modules-in-google-colab.md
+- content/posts/creating-a-new-google-sheet-in-colab-using-the-drive-api.md
 - content/posts/dateoffset-to-arrive-at-sla-date-in-pandas.md
-- content/posts/creating-a-custom-color-scale-for-varying-ranges-of-data.md
-- content/posts/re-arranging-columns-in-your-dataframe.md
-- content/posts/enable-tab-autocomplete-in-osx-terminal.md
 - content/posts/flattening-json-in-dataframe-with-missing-values.md
-- content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
+- content/posts/re-arranging-columns-in-your-dataframe.md
+- content/posts/row-number-in-mysql.md
+- content/posts/enable-tab-autocomplete-in-osx-terminal.md
+- content/posts/creating-a-custom-color-scale-for-varying-ranges-of-data.md
+- content/posts/import-your-own-custom-modules-in-google-colab.md
