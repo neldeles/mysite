@@ -5,7 +5,8 @@ tags = ["API", "google colab"]
 title = "Creating a new Google Sheet in Colab using the Drive API"
 
 +++
-
+Code snippet below:
+<!--more-->
 ```py
 from google.colab import auth
 auth.authenticate_user()
