@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-09-02T16:00:00Z
-draft = true
 tags = []
 title = "Troubleshooting Pipenv Install"
 
