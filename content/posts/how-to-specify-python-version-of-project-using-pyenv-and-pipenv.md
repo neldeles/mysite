@@ -38,3 +38,5 @@ Next is to use that Python version for my pipenv project. [This](https://hackern
     $ pyenv local 3.8.0
     $ python --version
     $ pipenv install django~=3.1.0
+
+Additional source: [https://dev.to/writingcode/the-python-virtual-environment-with-pyenv-pipenv-3mlo](https://dev.to/writingcode/the-python-virtual-environment-with-pyenv-pipenv-3mlo)
