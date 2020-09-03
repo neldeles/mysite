@@ -43,4 +43,8 @@ You should see something similar to this (including the path you’ve added!):
     MacMini:~ ryan$ echo $PATH
     /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/bin
 
-Source: [https://stackoverflow.com/questions/46391721/pipenv-command-not-found](https://stackoverflow.com/questions/46391721/pipenv-command-not-found "https://stackoverflow.com/questions/46391721/pipenv-command-not-found")
+Sources: 
+
+[https://stackoverflow.com/questions/46391721/pipenv-command-not-found](https://stackoverflow.com/questions/46391721/pipenv-command-not-found "https://stackoverflow.com/questions/46391721/pipenv-command-not-found")
+
+[https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently "https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently")
