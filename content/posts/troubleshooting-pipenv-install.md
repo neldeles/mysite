@@ -1,7 +1,7 @@
 +++
-categories = []
+categories = ["Tutorial"]
 date = 2020-09-02T16:00:00Z
-tags = []
+tags = ["python"]
 title = "Troubleshooting Pipenv Install on OSX"
 
 +++
