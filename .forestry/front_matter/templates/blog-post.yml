@@ -21,6 +21,7 @@ pages:
 - content/posts/enable-tab-autocomplete-in-osx-terminal.md
 - content/posts/flattening-json-in-dataframe-with-missing-values.md
 - content/posts/import-your-own-custom-modules-in-google-colab.md
+- content/posts/pipenv-environment-variable-lang-is-not-set.md
 - content/posts/re-arranging-columns-in-your-dataframe.md
 - content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
