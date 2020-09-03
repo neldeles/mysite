@@ -1,6 +1,6 @@
 +++
 categories = ["tutorial"]
-date = ""
+date = 2020-09-03T11:00:00Z
 tags = ["python"]
 title = "Pipenv environment variable LANG is not set!"
 
