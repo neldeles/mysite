@@ -24,6 +24,7 @@ pages:
 - content/posts/import-your-own-custom-modules-in-google-colab.md
 - content/posts/pipenv-environment-variable-lang-is-not-set.md
 - content/posts/re-arranging-columns-in-your-dataframe.md
+- content/posts/reading-uploaded-csv-in-pandas-using-django.md
 - content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
 - content/posts/troubleshooting-pipenv-install.md
