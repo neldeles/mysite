@@ -11,9 +11,16 @@ How to solve the error `Cannot assign "<SimpleLazyObject: <django.contrib.auth.m
 
 The error above was popping up because `uploaded_by` is retrieved in the view via `self.request.user`. This means that when running my test, there needs to be a logged in user so that the `uploaded_by` field is populated.
 
-To solve this, simply login your created test user:
+To solve this, simply login your created test user via `self.client.login(username='foo', password='bar')`. The complete code looks something like this:
 
     #test.py
+    from django.contrib.auth import get_user_model
+    from django.test import TestCase
+    from django.urls import reverse
+    from django.core.files.uploadedfile import SimpleUploadedFile
+    
+    from .models import InputCsv
+    
     class AutoAvTests(TestCase):
         def setUp(self):
             self.csv = SimpleUploadedFile(
