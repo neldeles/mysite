@@ -27,4 +27,5 @@ pages:
 - content/posts/reading-uploaded-csv-in-pandas-using-django.md
 - content/posts/row-number-in-mysql.md
 - content/posts/setting-up-a-hugo-blog.md
+- content/posts/test-csv-upload-in-django-with-logged-in-user.md
 - content/posts/troubleshooting-pipenv-install.md
